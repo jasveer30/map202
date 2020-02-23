@@ -12,6 +12,7 @@ if (!isset($_SESSION['auth'])) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.css">
+		 <link rel="stylesheet" href="../app/public/css/style.css">
         <style>
             body>.container {
                 padding: 60px 15px 0;
@@ -43,4 +44,15 @@ if (!isset($_SESSION['auth'])) {
                     </ul>
                 </div>
             </nav>
+			<div class="container">
+				<br>
+				<br>
+				<br>
+				<div class="row">
+					<a class="nav-link" href="/courses">Courses</a>
+					<a class="nav-link" href="/courses/course">Insert</a>	
+				</div>
+				
+			</div>
+			   
         </header>
