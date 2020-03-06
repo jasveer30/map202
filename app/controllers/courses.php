@@ -22,10 +22,8 @@ class Courses extends Controller {
 		{
 				$departmentnames=$newmodel->departmentnames();
 			
-			
-			
-			
-			$this->view('courses/departmentnames', ['departmentnames' => $departmentnames]);
+			 
+									$this->view('courses/departmentnames', ['departmentnames' => $departmentnames]);
 		} 
 	}
 	

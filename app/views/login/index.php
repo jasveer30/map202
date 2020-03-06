@@ -5,7 +5,7 @@
             <div class="col-lg-12">
                 <h1>You are not logged in!</h1>
 
-                <!--<p class="lead"><a href="/login/register"> Sign up here </a></p>-->
+                <p class="lead"><a href="/login/register"> Sign up here </a></p>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
 	<?php }	
 	?>
 <div class="row">
-    <div class="col-sm-auto">
+    <div class="col-sm-auto">	
 		<form action="login/verify" method="post" >
 		<fieldset>
 			<div class="form-group">
